@@ -1,0 +1,11 @@
+{
+  "name": "node-addon-bsdiff",
+  "version": "0.0.1",
+  "description": "bsdiff for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kitt.Hsu",
+  "license": "BSD-2-Clause"
+}
