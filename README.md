@@ -13,7 +13,7 @@ So, try the follow way to install it or just download sources.
 ```
 const bs = require('node-addon-bsdiff');
 const patch = bs.diff(oldBufferOrString, newBufferOrString);
-console.log(Buffer.isBuffer(patch)); // true
+console.log(Buffer.isBuffer(patch)); // true. If old and new are the same, null will return.
 
 const newVersion = bs.patch(oldBufferOrString, patchBufferOrString);
 console.log(Buffer.isBuffer(newVersion)); // true
